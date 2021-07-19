@@ -1,0 +1,222 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CG.Blazor.Services
+  name: CG.Blazor.Services
+  href: api/CG.Blazor.Services.html
+  commentId: N:CG.Blazor.Services
+  fullName: CG.Blazor.Services
+  nameWithType: CG.Blazor.Services
+- uid: CG.Blazor.Services.IStateService
+  name: IStateService
+  href: api/CG.Blazor.Services.IStateService.html
+  commentId: T:CG.Blazor.Services.IStateService
+  fullName: CG.Blazor.Services.IStateService
+  nameWithType: IStateService
+- uid: CG.Blazor.Services.IStateService.Data
+  name: Data
+  href: api/CG.Blazor.Services.IStateService.html#CG_Blazor_Services_IStateService_Data
+  commentId: P:CG.Blazor.Services.IStateService.Data
+  fullName: CG.Blazor.Services.IStateService.Data
+  nameWithType: IStateService.Data
+- uid: CG.Blazor.Services.IStateService.Data*
+  name: Data
+  href: api/CG.Blazor.Services.IStateService.html#CG_Blazor_Services_IStateService_Data_
+  commentId: Overload:CG.Blazor.Services.IStateService.Data
+  isSpec: "True"
+  fullName: CG.Blazor.Services.IStateService.Data
+  nameWithType: IStateService.Data
+- uid: CG.Blazor.Services.ITokenService
+  name: ITokenService
+  href: api/CG.Blazor.Services.ITokenService.html
+  commentId: T:CG.Blazor.Services.ITokenService
+  fullName: CG.Blazor.Services.ITokenService
+  nameWithType: ITokenService
+- uid: CG.Blazor.Services.ITokenService.EnsureAccessTokenAsync(System.Threading.CancellationToken)
+  name: EnsureAccessTokenAsync(CancellationToken)
+  href: api/CG.Blazor.Services.ITokenService.html#CG_Blazor_Services_ITokenService_EnsureAccessTokenAsync_System_Threading_CancellationToken_
+  commentId: M:CG.Blazor.Services.ITokenService.EnsureAccessTokenAsync(System.Threading.CancellationToken)
+  fullName: CG.Blazor.Services.ITokenService.EnsureAccessTokenAsync(System.Threading.CancellationToken)
+  nameWithType: ITokenService.EnsureAccessTokenAsync(CancellationToken)
+- uid: CG.Blazor.Services.ITokenService.EnsureAccessTokenAsync*
+  name: EnsureAccessTokenAsync
+  href: api/CG.Blazor.Services.ITokenService.html#CG_Blazor_Services_ITokenService_EnsureAccessTokenAsync_
+  commentId: Overload:CG.Blazor.Services.ITokenService.EnsureAccessTokenAsync
+  isSpec: "True"
+  fullName: CG.Blazor.Services.ITokenService.EnsureAccessTokenAsync
+  nameWithType: ITokenService.EnsureAccessTokenAsync
+- uid: CG.Blazor.Services.StateService
+  name: StateService
+  href: api/CG.Blazor.Services.StateService.html
+  commentId: T:CG.Blazor.Services.StateService
+  fullName: CG.Blazor.Services.StateService
+  nameWithType: StateService
+- uid: CG.Blazor.Services.StateService.#ctor
+  name: StateService()
+  href: api/CG.Blazor.Services.StateService.html#CG_Blazor_Services_StateService__ctor
+  commentId: M:CG.Blazor.Services.StateService.#ctor
+  fullName: CG.Blazor.Services.StateService.StateService()
+  nameWithType: StateService.StateService()
+- uid: CG.Blazor.Services.StateService.#ctor*
+  name: StateService
+  href: api/CG.Blazor.Services.StateService.html#CG_Blazor_Services_StateService__ctor_
+  commentId: Overload:CG.Blazor.Services.StateService.#ctor
+  isSpec: "True"
+  fullName: CG.Blazor.Services.StateService.StateService
+  nameWithType: StateService.StateService
+- uid: CG.Blazor.Services.StateService.Data
+  name: Data
+  href: api/CG.Blazor.Services.StateService.html#CG_Blazor_Services_StateService_Data
+  commentId: P:CG.Blazor.Services.StateService.Data
+  fullName: CG.Blazor.Services.StateService.Data
+  nameWithType: StateService.Data
+- uid: CG.Blazor.Services.StateService.Data*
+  name: Data
+  href: api/CG.Blazor.Services.StateService.html#CG_Blazor_Services_StateService_Data_
+  commentId: Overload:CG.Blazor.Services.StateService.Data
+  isSpec: "True"
+  fullName: CG.Blazor.Services.StateService.Data
+  nameWithType: StateService.Data
+- uid: CG.Blazor.Services.StateServiceExtensions
+  name: StateServiceExtensions
+  href: api/CG.Blazor.Services.StateServiceExtensions.html
+  commentId: T:CG.Blazor.Services.StateServiceExtensions
+  fullName: CG.Blazor.Services.StateServiceExtensions
+  nameWithType: StateServiceExtensions
+- uid: CG.Blazor.Services.StateServiceExtensions.GetValueByName*
+  name: GetValueByName
+  href: api/CG.Blazor.Services.StateServiceExtensions.html#CG_Blazor_Services_StateServiceExtensions_GetValueByName_
+  commentId: Overload:CG.Blazor.Services.StateServiceExtensions.GetValueByName
+  isSpec: "True"
+  fullName: CG.Blazor.Services.StateServiceExtensions.GetValueByName
+  nameWithType: StateServiceExtensions.GetValueByName
+- uid: CG.Blazor.Services.StateServiceExtensions.GetValueByName``1(CG.Blazor.Services.IStateService,System.String)
+  name: GetValueByName<T>(IStateService, String)
+  href: api/CG.Blazor.Services.StateServiceExtensions.html#CG_Blazor_Services_StateServiceExtensions_GetValueByName__1_CG_Blazor_Services_IStateService_System_String_
+  commentId: M:CG.Blazor.Services.StateServiceExtensions.GetValueByName``1(CG.Blazor.Services.IStateService,System.String)
+  name.vb: GetValueByName(Of T)(IStateService, String)
+  fullName: CG.Blazor.Services.StateServiceExtensions.GetValueByName<T>(CG.Blazor.Services.IStateService, System.String)
+  fullName.vb: CG.Blazor.Services.StateServiceExtensions.GetValueByName(Of T)(CG.Blazor.Services.IStateService, System.String)
+  nameWithType: StateServiceExtensions.GetValueByName<T>(IStateService, String)
+  nameWithType.vb: StateServiceExtensions.GetValueByName(Of T)(IStateService, String)
+- uid: CG.Blazor.Services.StateServiceExtensions.GetValueByName``1(CG.Blazor.Services.IStateService,System.String,``0)
+  name: GetValueByName<T>(IStateService, String, T)
+  href: api/CG.Blazor.Services.StateServiceExtensions.html#CG_Blazor_Services_StateServiceExtensions_GetValueByName__1_CG_Blazor_Services_IStateService_System_String___0_
+  commentId: M:CG.Blazor.Services.StateServiceExtensions.GetValueByName``1(CG.Blazor.Services.IStateService,System.String,``0)
+  name.vb: GetValueByName(Of T)(IStateService, String, T)
+  fullName: CG.Blazor.Services.StateServiceExtensions.GetValueByName<T>(CG.Blazor.Services.IStateService, System.String, T)
+  fullName.vb: CG.Blazor.Services.StateServiceExtensions.GetValueByName(Of T)(CG.Blazor.Services.IStateService, System.String, T)
+  nameWithType: StateServiceExtensions.GetValueByName<T>(IStateService, String, T)
+  nameWithType.vb: StateServiceExtensions.GetValueByName(Of T)(IStateService, String, T)
+- uid: CG.Blazor.Services.StateServiceExtensions.SetValueByName*
+  name: SetValueByName
+  href: api/CG.Blazor.Services.StateServiceExtensions.html#CG_Blazor_Services_StateServiceExtensions_SetValueByName_
+  commentId: Overload:CG.Blazor.Services.StateServiceExtensions.SetValueByName
+  isSpec: "True"
+  fullName: CG.Blazor.Services.StateServiceExtensions.SetValueByName
+  nameWithType: StateServiceExtensions.SetValueByName
+- uid: CG.Blazor.Services.StateServiceExtensions.SetValueByName``1(CG.Blazor.Services.IStateService,System.String,``0)
+  name: SetValueByName<T>(IStateService, String, T)
+  href: api/CG.Blazor.Services.StateServiceExtensions.html#CG_Blazor_Services_StateServiceExtensions_SetValueByName__1_CG_Blazor_Services_IStateService_System_String___0_
+  commentId: M:CG.Blazor.Services.StateServiceExtensions.SetValueByName``1(CG.Blazor.Services.IStateService,System.String,``0)
+  name.vb: SetValueByName(Of T)(IStateService, String, T)
+  fullName: CG.Blazor.Services.StateServiceExtensions.SetValueByName<T>(CG.Blazor.Services.IStateService, System.String, T)
+  fullName.vb: CG.Blazor.Services.StateServiceExtensions.SetValueByName(Of T)(CG.Blazor.Services.IStateService, System.String, T)
+  nameWithType: StateServiceExtensions.SetValueByName<T>(IStateService, String, T)
+  nameWithType.vb: StateServiceExtensions.SetValueByName(Of T)(IStateService, String, T)
+- uid: CG.Blazor.Services.TokenProvider
+  name: TokenProvider
+  href: api/CG.Blazor.Services.TokenProvider.html
+  commentId: T:CG.Blazor.Services.TokenProvider
+  fullName: CG.Blazor.Services.TokenProvider
+  nameWithType: TokenProvider
+- uid: CG.Blazor.Services.TokenProvider.AccessToken
+  name: AccessToken
+  href: api/CG.Blazor.Services.TokenProvider.html#CG_Blazor_Services_TokenProvider_AccessToken
+  commentId: P:CG.Blazor.Services.TokenProvider.AccessToken
+  fullName: CG.Blazor.Services.TokenProvider.AccessToken
+  nameWithType: TokenProvider.AccessToken
+- uid: CG.Blazor.Services.TokenProvider.AccessToken*
+  name: AccessToken
+  href: api/CG.Blazor.Services.TokenProvider.html#CG_Blazor_Services_TokenProvider_AccessToken_
+  commentId: Overload:CG.Blazor.Services.TokenProvider.AccessToken
+  isSpec: "True"
+  fullName: CG.Blazor.Services.TokenProvider.AccessToken
+  nameWithType: TokenProvider.AccessToken
+- uid: CG.Blazor.Services.TokenProvider.ExpiresAt
+  name: ExpiresAt
+  href: api/CG.Blazor.Services.TokenProvider.html#CG_Blazor_Services_TokenProvider_ExpiresAt
+  commentId: P:CG.Blazor.Services.TokenProvider.ExpiresAt
+  fullName: CG.Blazor.Services.TokenProvider.ExpiresAt
+  nameWithType: TokenProvider.ExpiresAt
+- uid: CG.Blazor.Services.TokenProvider.ExpiresAt*
+  name: ExpiresAt
+  href: api/CG.Blazor.Services.TokenProvider.html#CG_Blazor_Services_TokenProvider_ExpiresAt_
+  commentId: Overload:CG.Blazor.Services.TokenProvider.ExpiresAt
+  isSpec: "True"
+  fullName: CG.Blazor.Services.TokenProvider.ExpiresAt
+  nameWithType: TokenProvider.ExpiresAt
+- uid: CG.Blazor.Services.TokenProvider.RefreshToken
+  name: RefreshToken
+  href: api/CG.Blazor.Services.TokenProvider.html#CG_Blazor_Services_TokenProvider_RefreshToken
+  commentId: P:CG.Blazor.Services.TokenProvider.RefreshToken
+  fullName: CG.Blazor.Services.TokenProvider.RefreshToken
+  nameWithType: TokenProvider.RefreshToken
+- uid: CG.Blazor.Services.TokenProvider.RefreshToken*
+  name: RefreshToken
+  href: api/CG.Blazor.Services.TokenProvider.html#CG_Blazor_Services_TokenProvider_RefreshToken_
+  commentId: Overload:CG.Blazor.Services.TokenProvider.RefreshToken
+  isSpec: "True"
+  fullName: CG.Blazor.Services.TokenProvider.RefreshToken
+  nameWithType: TokenProvider.RefreshToken
+- uid: CG.Blazor.Services.TokenProvider.XsrfToken
+  name: XsrfToken
+  href: api/CG.Blazor.Services.TokenProvider.html#CG_Blazor_Services_TokenProvider_XsrfToken
+  commentId: P:CG.Blazor.Services.TokenProvider.XsrfToken
+  fullName: CG.Blazor.Services.TokenProvider.XsrfToken
+  nameWithType: TokenProvider.XsrfToken
+- uid: CG.Blazor.Services.TokenProvider.XsrfToken*
+  name: XsrfToken
+  href: api/CG.Blazor.Services.TokenProvider.html#CG_Blazor_Services_TokenProvider_XsrfToken_
+  commentId: Overload:CG.Blazor.Services.TokenProvider.XsrfToken
+  isSpec: "True"
+  fullName: CG.Blazor.Services.TokenProvider.XsrfToken
+  nameWithType: TokenProvider.XsrfToken
+- uid: CG.Blazor.Services.TokenServiceBase
+  name: TokenServiceBase
+  href: api/CG.Blazor.Services.TokenServiceBase.html
+  commentId: T:CG.Blazor.Services.TokenServiceBase
+  fullName: CG.Blazor.Services.TokenServiceBase
+  nameWithType: TokenServiceBase
+- uid: CG.Blazor.Services.TokenServiceBase.#ctor(CG.Blazor.Services.TokenProvider)
+  name: TokenServiceBase(TokenProvider)
+  href: api/CG.Blazor.Services.TokenServiceBase.html#CG_Blazor_Services_TokenServiceBase__ctor_CG_Blazor_Services_TokenProvider_
+  commentId: M:CG.Blazor.Services.TokenServiceBase.#ctor(CG.Blazor.Services.TokenProvider)
+  fullName: CG.Blazor.Services.TokenServiceBase.TokenServiceBase(CG.Blazor.Services.TokenProvider)
+  nameWithType: TokenServiceBase.TokenServiceBase(TokenProvider)
+- uid: CG.Blazor.Services.TokenServiceBase.#ctor*
+  name: TokenServiceBase
+  href: api/CG.Blazor.Services.TokenServiceBase.html#CG_Blazor_Services_TokenServiceBase__ctor_
+  commentId: Overload:CG.Blazor.Services.TokenServiceBase.#ctor
+  isSpec: "True"
+  fullName: CG.Blazor.Services.TokenServiceBase.TokenServiceBase
+  nameWithType: TokenServiceBase.TokenServiceBase
+- uid: CG.Blazor.Services.TokenServiceBase._tokenProvider
+  name: _tokenProvider
+  href: api/CG.Blazor.Services.TokenServiceBase.html#CG_Blazor_Services_TokenServiceBase__tokenProvider
+  commentId: F:CG.Blazor.Services.TokenServiceBase._tokenProvider
+  fullName: CG.Blazor.Services.TokenServiceBase._tokenProvider
+  nameWithType: TokenServiceBase._tokenProvider
+- uid: CG.Blazor.Services.TokenServiceBase.EnsureAccessTokenAsync(System.Threading.CancellationToken)
+  name: EnsureAccessTokenAsync(CancellationToken)
+  href: api/CG.Blazor.Services.TokenServiceBase.html#CG_Blazor_Services_TokenServiceBase_EnsureAccessTokenAsync_System_Threading_CancellationToken_
+  commentId: M:CG.Blazor.Services.TokenServiceBase.EnsureAccessTokenAsync(System.Threading.CancellationToken)
+  fullName: CG.Blazor.Services.TokenServiceBase.EnsureAccessTokenAsync(System.Threading.CancellationToken)
+  nameWithType: TokenServiceBase.EnsureAccessTokenAsync(CancellationToken)
+- uid: CG.Blazor.Services.TokenServiceBase.EnsureAccessTokenAsync*
+  name: EnsureAccessTokenAsync
+  href: api/CG.Blazor.Services.TokenServiceBase.html#CG_Blazor_Services_TokenServiceBase_EnsureAccessTokenAsync_
+  commentId: Overload:CG.Blazor.Services.TokenServiceBase.EnsureAccessTokenAsync
+  isSpec: "True"
+  fullName: CG.Blazor.Services.TokenServiceBase.EnsureAccessTokenAsync
+  nameWithType: TokenServiceBase.EnsureAccessTokenAsync

@@ -1,0 +1,47 @@
+{
+  "api/CG.Blazor.Services.html": {
+    "href": "api/CG.Blazor.Services.html",
+    "title": "Namespace CG.Blazor.Services",
+    "keywords": "Namespace CG.Blazor.Services Classes StateService This class is a default implementation of the IStateService interface. StateServiceExtensions This class contains extension methods related to the IStateService type. TokenProvider This class caches HTTP tokens to make them easily accessable, from Blazor. TokenServiceBase This class is a base implementation of the ITokenService interface. Interfaces IStateService This interface represents an object that holds state. ITokenService This interface represents an object that manages IdentityServer4 access tokens."
+  },
+  "api/CG.Blazor.Services.IStateService.html": {
+    "href": "api/CG.Blazor.Services.IStateService.html",
+    "title": "Interface IStateService",
+    "keywords": "Interface IStateService This interface represents an object that holds state. Namespace : CG.Blazor.Services Assembly : CG.Blazor.Services.dll Syntax public interface IStateService Properties Data This property contains a table of named data. Declaration IDictionary<string, object> Data { get; } Property Value Type Description System.Collections.Generic.IDictionary < System.String , System.Object > Extension Methods StateServiceExtensions.SetValueByName<T>(IStateService, String, T) StateServiceExtensions.GetValueByName<T>(IStateService, String) StateServiceExtensions.GetValueByName<T>(IStateService, String, T)"
+  },
+  "api/CG.Blazor.Services.ITokenService.html": {
+    "href": "api/CG.Blazor.Services.ITokenService.html",
+    "title": "Interface ITokenService",
+    "keywords": "Interface ITokenService This interface represents an object that manages IdentityServer4 access tokens. Namespace : CG.Blazor.Services Assembly : CG.Blazor.Services.dll Syntax public interface ITokenService Methods EnsureAccessTokenAsync(CancellationToken) This method ensures the returned access token is always current. Declaration Task<string> EnsureAccessTokenAsync(CancellationToken cancellationToken = default(CancellationToken)) Parameters Type Name Description System.Threading.CancellationToken cancellationToken A cancellation token. Returns Type Description System.Threading.Tasks.Task < System.String > The refreshed HTTP access token."
+  },
+  "api/CG.Blazor.Services.StateService.html": {
+    "href": "api/CG.Blazor.Services.StateService.html",
+    "title": "Class StateService",
+    "keywords": "Class StateService This class is a default implementation of the IStateService interface. Inheritance System.Object CG.DisposableBase StateService Implements System.IDisposable IStateService Inherited Members CG.DisposableBase.System.IDisposable.Dispose() CG.DisposableBase.Dispose(System.Boolean) CG.DisposableBase.IsDisposed System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Services Assembly : CG.Blazor.Services.dll Syntax public class StateService : DisposableBase, IDisposable, IStateService Constructors StateService() This constructor creates a new instance of the StateService class. Declaration public StateService() Properties Data This property contains a table of named data. Declaration public IDictionary<string, object> Data { get; } Property Value Type Description System.Collections.Generic.IDictionary < System.String , System.Object > Implements System.IDisposable IStateService Extension Methods StateServiceExtensions.SetValueByName<T>(IStateService, String, T) StateServiceExtensions.GetValueByName<T>(IStateService, String) StateServiceExtensions.GetValueByName<T>(IStateService, String, T)"
+  },
+  "api/CG.Blazor.Services.StateServiceExtensions.html": {
+    "href": "api/CG.Blazor.Services.StateServiceExtensions.html",
+    "title": "Class StateServiceExtensions",
+    "keywords": "Class StateServiceExtensions This class contains extension methods related to the IStateService type. Inheritance System.Object StateServiceExtensions Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Services Assembly : CG.Blazor.Services.dll Syntax public static class StateServiceExtensions Methods GetValueByName<T>(IStateService, String) This method sets a named string value in the state. Declaration public static T GetValueByName<T>(this IStateService state, string name) Parameters Type Name Description IStateService state The state service to use for the operation. System.String name The name to use for the operation. Returns Type Description T The value associated with the name, or the default value, if the value doesn't yet exist. Type Parameters Name Description T The type of associated value. GetValueByName<T>(IStateService, String, T) This method sets a named string value in the state. Declaration public static T GetValueByName<T>(this IStateService state, string name, T defaultValue) Parameters Type Name Description IStateService state The state service to use for the operation. System.String name The name to use for the operation. T defaultValue The default value to use if the named value doesn't yet exist. Returns Type Description T The value associated with the name, or the default value, if the value doesn't yet exist. Type Parameters Name Description T The type of associated value. SetValueByName<T>(IStateService, String, T) This method sets a named value in the state. Declaration public static void SetValueByName<T>(this IStateService state, string name, T value) Parameters Type Name Description IStateService state The state service to use for the operation. System.String name The name to use for the operation. T value The value to use for the operation. Type Parameters Name Description T The type of associated value."
+  },
+  "api/CG.Blazor.Services.TokenProvider.html": {
+    "href": "api/CG.Blazor.Services.TokenProvider.html",
+    "title": "Class TokenProvider",
+    "keywords": "Class TokenProvider This class caches HTTP tokens to make them easily accessable, from Blazor. Inheritance System.Object TokenProvider Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Services Assembly : CG.Blazor.Services.dll Syntax public class TokenProvider Properties AccessToken This property contains a bearer access token. Declaration public string AccessToken { get; set; } Property Value Type Description System.String ExpiresAt This property indicates how long until the access token expires. Declaration public DateTimeOffset ExpiresAt { get; set; } Property Value Type Description System.DateTimeOffset RefreshToken This property contains a refresh token. Declaration public string RefreshToken { get; set; } Property Value Type Description System.String XsrfToken This property contains a cross-reference forgery validation token. Declaration public string XsrfToken { get; set; } Property Value Type Description System.String"
+  },
+  "api/CG.Blazor.Services.TokenServiceBase.html": {
+    "href": "api/CG.Blazor.Services.TokenServiceBase.html",
+    "title": "Class TokenServiceBase",
+    "keywords": "Class TokenServiceBase This class is a base implementation of the ITokenService interface. Inheritance System.Object TokenServiceBase Implements ITokenService Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Blazor.Services Assembly : CG.Blazor.Services.dll Syntax public abstract class TokenServiceBase : ITokenService Constructors TokenServiceBase(TokenProvider) This constructor creates a new instance of the TokenServiceBase class. Declaration protected TokenServiceBase(TokenProvider tokenProvider) Parameters Type Name Description TokenProvider tokenProvider The token provider to use with the service. Fields _tokenProvider This property contains a reference to a token provider. Declaration protected TokenProvider _tokenProvider Field Value Type Description TokenProvider Methods EnsureAccessTokenAsync(CancellationToken) This method ensures the returned access token is always current. Declaration public abstract Task<string> EnsureAccessTokenAsync(CancellationToken cancellationToken = default(CancellationToken)) Parameters Type Name Description System.Threading.CancellationToken cancellationToken A cancellation token. Returns Type Description System.Threading.Tasks.Task < System.String > The refreshed HTTP access token. Implements ITokenService"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Add your introductions here!",
+    "keywords": "Add your introductions here!"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Introduction",
+    "keywords": "Introduction CG.Blazor.Services.dll contains server side Blazor services used by other CodeGator packages."
+  }
+}
