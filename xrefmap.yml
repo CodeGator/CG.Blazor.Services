@@ -220,3 +220,41 @@ references:
   isSpec: "True"
   fullName: CG.Blazor.Services.TokenServiceBase.EnsureAccessTokenAsync
   nameWithType: TokenServiceBase.EnsureAccessTokenAsync
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddStateService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddStateService(IServiceCollection, IConfiguration, ServiceLifetime)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddStateService_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddStateService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddStateService(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: ServiceCollectionExtensions.AddStateService(IServiceCollection, IConfiguration, ServiceLifetime)
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddStateService*
+  name: AddStateService
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddStateService_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddStateService
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddStateService
+  nameWithType: ServiceCollectionExtensions.AddStateService
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddTokenProvider(IServiceCollection, IConfiguration, ServiceLifetime)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddTokenProvider_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: ServiceCollectionExtensions.AddTokenProvider(IServiceCollection, IConfiguration, ServiceLifetime)
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddTokenProvider*
+  name: AddTokenProvider
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddTokenProvider_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddTokenProvider
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddTokenProvider
+  nameWithType: ServiceCollectionExtensions.AddTokenProvider

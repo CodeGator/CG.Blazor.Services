@@ -97,12 +97,36 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
+          "hash": "xz1UqeJyLd9rnstjDS5gl66gb+58Q/lYKU/CN6oBut0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "sl42Z1tj9cNCakGhpP0YHElnC4oSaSDYxYzlpydTchY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "h6w5XrZtgckoVwO8BEfg9WOxPqGiybdQtvHKDQuBHfM="
+          "hash": "xMkjuiyMhcpeUbdnTjf99EgHTViMPARmQ3XeosDVMnY="
         }
       },
       "is_incremental": false,
@@ -221,7 +245,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 7,
+          "total_file_count": 9,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
