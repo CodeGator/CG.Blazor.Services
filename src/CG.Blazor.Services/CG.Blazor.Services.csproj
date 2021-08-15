@@ -27,7 +27,9 @@ Platforms supported:
 
   <ItemGroup>
     <PackageReference Include="CG.Core" Version="2021.3.2" />
+    <PackageReference Include="CG.DependencyInjection" Version="2021.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.231">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
